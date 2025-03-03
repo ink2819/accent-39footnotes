@@ -1,0 +1,118 @@
+:root {
+    --primary-color:  rgb(98, 48, 25);
+    --secondary-color:sienna;
+    --background-color: #FCF5E5;
+}
+
+body {
+    font-family: "EB Garamond", Georgia, serif;
+    line-height: 1.6;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.exhibition-header {
+    text-align: left;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.exhibition-info {
+    font-size: 0.7rem;
+    color: var(--secondary-color);
+}
+
+.exhibition-text{
+    max-width: 50%;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.footnote-marker {
+    font-size: 0.8rem;
+    vertical-align: super;
+    color: var(--accent-color);
+}
+.writing{
+    font-weight: 80;
+    font-size: 0.9em;
+    margin-left: 20%;
+}
+p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.poem {
+    padding-left: 2rem;
+    font-style: italic;
+    margin: 2rem 0;
+}
+
+.indent {
+    text-indent: 2rem;
+}
+
+.centered {
+    text-align: center;
+}
+a{
+    color: rgb(98, 48, 25);
+    font-size: large;
+}
+.italic {
+    font-style: italic;
+}
+
+.chinese-characters {
+    font-family: "Noto Serif SC", serif;
+    font-size: 1rem;
+}
+
+.braille {
+    font-family: monospace;
+}
+
+.footnote-content{
+    position: fixed;
+    left: 60%;
+    padding-left: 20px;
+    max-width: 30%;
+    min-width: 20px;
+    font-size: smaller;
+    overflow: visible;
+}
+
+.details{
+    border-top:1px solid red;
+}
+
+/*Highlights*/
+.orange:hover {
+    background-color: #f6b26b;
+    text-decoration: none;
+    }
+.blue:hover{
+    background-color: #a4c2f4;
+    text-decoration: none;
+}
+
+.green:hover{
+    background-color: #93c47d;
+    text-decoration: none;
+}
+
