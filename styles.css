@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
@@ -99,28 +99,30 @@ ul{
 .footnote-content{
     position: fixed;
     left: 60%;
-    max-width: 30%;
+    max-width: 30vw;
     min-width: 20px;
     font-size: 80%;
     height: 60vw;
+    display: flex;
 }
 
 .details {
     border-top:1px solid red;
     text-wrap: wrap;
     height: 100%;
-    overflow-y: auto;
 }
 
 .image {
     margin-top: 20px;
-    width: auto;
+    max-height: 36vw;
+    width: 100%;
     padding: 6px;
     overflow-y: hidden;
 }
 
 img {
     max-width: 100%;
+    max-height: 25vw;
 }
 
 /*Highlights*/
