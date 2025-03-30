@@ -55,12 +55,6 @@ p {
     text-align: justify;
 }
 
-.poem {
-    padding-left: 2rem;
-    font-style: italic;
-    margin: 2rem 0;
-}
-
 .indent {
     text-indent: 2rem;
 }
@@ -92,6 +86,14 @@ ul{
     font-size: 1rem;
 }
 
+.right{
+    text-align: right;
+}
+
+.margined{
+    margin-left: 10%;
+}
+
 .braille {
     font-family: monospace;
 }
@@ -107,6 +109,12 @@ ul{
 }
 
 .details {
+    border-top:1px solid red;
+    text-wrap: wrap;
+    height: 100%;
+}
+
+.Bibliography {
     border-top:1px solid red;
     text-wrap: wrap;
     height: 100%;
